@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: .*/secrets/*
+    gcp_kms: projects/anz-ex-services-dev-32c9ea/locations/australia-southeast1/keyRings/engineering-acceleration-keyring/cryptoKeys/codefresh-key-4292
+    encrypted_regex: '^(password|secret|credentials)$'
